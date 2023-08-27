@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact List</title>
+  </head>
+  <body>
+    <h1>Contact List</h1>
+    <ul>
+      {% for contact in contacts %}
+      <li>
+        ID: {{ contact.id }}<br />
+        Phone Number: {{ contact.phoneNumber }}<br />
+        Email: {{ contact.email }}<br />
+        Link Precedence: {{ contact.linkPrecedence }}<br />
+        Created At: {{ contact.createdAt }}<br />
+        Updated At: {{ contact.updatedAt }}<br />
+        Deleted At: {{ contact.deletedAt }}
+        <hr />
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
