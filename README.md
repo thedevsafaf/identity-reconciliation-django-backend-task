@@ -1,12 +1,12 @@
 # identity-reconciliation-django-backend-task
 A backend task developed using Python Django and TypeScript
 
-- It is hosted at [https://bitespeed-backend-task-identity-f4ta.onrender.com](https://fcart-app.onrender.com)
+- It is hosted at [https://fcart-app.onrender.com](https://fcart-app.onrender.com)
 - We can test the requests with POSTMAN API [https://www.postman.com/](https://www.postman.com/) and see the corresponding requests
 - (Used JSON Body and not form-data for request payloads).
 - The database used for this application is PosgreSQL.
-- The /identify endpoint is available at using [https://bitespeed-backend-task-identity-f4ta.onrender.com/identify/](https://fcart-app.onrender.com/identify/)
-- All the contacts list can be seen at the following URL: [https://bitespeed-backend-task-identity-f4ta.onrender.com/contacts/](https://fcart-app.onrender.com/contacts/)
+- The /identify endpoint is available at using [https://fcart-app.onrender.com/identify/](https://fcart-app.onrender.com/identify/)
+- All the contacts list can be seen at the following URL: [https://fcart-app.onrender.com/contacts/](https://fcart-app.onrender.com/contacts/)
 - Web Hosting Server used: render.com
 
 - Snapshots Preview:
